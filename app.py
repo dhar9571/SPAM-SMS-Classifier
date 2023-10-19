@@ -8,6 +8,9 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 
+# Download NLTK data files
+nltk.download('punkt')
+
 # importing required pickle files:
 
 model = pickle.load(open('mnb.pkl','rb'))
